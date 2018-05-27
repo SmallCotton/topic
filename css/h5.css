@@ -1,0 +1,128 @@
+*{
+    -webkit-user-select:none;
+    user-select:none;
+}
+body,html,ul,li,p,dl,dt,dd,h1,h2,h3,h4,h5{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+}
+html{
+    font: 100px/1 SourceHanSansCN,Microsoft Yahei,Helvetica,Arial,sans-serif;
+    color: #000000;
+}
+body,html{
+    background: #fff;
+    min-height: 100%;
+}
+img,input{
+    outline: none;
+    display: block;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+    outline: none;
+}
+div,ul,li,form,input,span,b,a,i,em{
+    -webkit-tap-highlight-color: transparent;
+    font-style: normal;
+    font-weight: normal;
+}
+a:active{
+    color: #000000;
+}
+.cl:after {
+    content: '\20';
+    display: table;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+html,body,.wrapper{
+    background: #47c1f3;
+}
+.topic-h5 {
+    padding: 5.45rem .13rem .3rem;
+    background-image: url(../images/h5/1.jpg) , url(../images/h5/2.jpg);
+    background-position: center 0, center 9.23rem;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+.topic-h5 .wrap{
+    background-color: #cae6f8;
+    padding: .4rem 0 .8rem;
+}
+.topic-h5 .tit{
+    width: 4.15rem;
+    height: .97rem;
+    display: block;
+    margin: .4rem auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.topic-h5 .tit1{
+    background-image: url(../images/h5/t1.png);
+}
+.topic-h5 .tit2{
+    background-image: url(../images/h5/t2.png);
+}
+.topic-h5 .tit3{
+    background-image: url(../images/h5/t3.png);
+}
+.topic-h5 .tit4{
+    background-image: url(../images/h5/t4.png);
+}
+
+.topich5-list{
+ 
+}
+.topich5-list a{
+    width: 33.333%;
+    float: left;
+    display: block;
+    height: 4.3rem;
+    text-align: center;
+    margin-bottom: .2rem;
+}
+.topich5-list img{
+    width: 2.98rem;
+    height: 2.78rem;
+    display: block;
+    margin: 0 auto .2rem;
+}
+.topich5-list p{
+    font-size: .26rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: .4rem;
+}
+.topich5-list em{
+    color: #cc9900;
+    font-size: .28rem;
+    line-height: .4rem;
+    display: block;
+}
+.topich5-list span{
+    border:1px solid #000;
+    font-size: .28rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    border-radius: .15rem;
+    width: 1.98rem;
+    height: .48rem;
+    display: block;
+    margin: .1rem auto 0;
+}
+.topic-h5 .btn-top{
+    background-image: url(../images/h5/btn.png);
+    width: 3.03rem;
+    height: .9rem;
+    display: block;
+    margin: .33rem auto 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
